@@ -1,0 +1,68 @@
+*{margin:0 ;
+    padding: 0;
+    box-sizing: border-box
+}
+
+nav ul li {
+   list-style-type: none;
+   font-family:  'Dancing Script', cursive;
+   font-weight: bold; color: aqua;
+    background-color: rgba(218, 166, 10, 0.621); text-align:end;
+    align-items: flex-end;
+    justify-items: flex-end;
+    line-height:normal;
+    font-weight: 15rem;
+  
+    
+
+}
+.fotoGrande
+{
+background-image: url(../assets/imagenes/imagen1.jpg);
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: 50px;
+text-align: none
+}
+
+.colorLetra{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+.cursiva{
+    font-family:  'Dancing Script';
+    color:rgba(243, 239, 238, 0.621);
+    text-align: left;
+}
+.video{
+    text-align: left;
+
+}
+
+.tituloBig{
+    font-weight: bold;
+    
+    
+    }
+
+.links{
+text-align: center;
+}
+    
+.desaparecer{
+   position: absolute;
+   position: unset;
+}
+header{  position: sticky
+    top:0px;
+    z-index: 10;
+    }
+
+.puntos__item1
+{background-color: aquamarine;
+
+}
